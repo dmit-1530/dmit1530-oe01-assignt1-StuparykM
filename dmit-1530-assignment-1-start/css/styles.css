@@ -70,3 +70,26 @@ header a{
 header a:hover{
     text-decoration: underline;
 }
+
+h2{
+    font-family: "Noto Serif";
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero{
+    margin: 6rem 13rem;
+}
+
+.hero p{
+    padding-bottom:3.3rem;
+}
+
+.button{
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+    padding:1rem;
+    border-radius:.5rem;
+}
