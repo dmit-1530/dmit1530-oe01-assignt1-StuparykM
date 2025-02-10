@@ -15,3 +15,58 @@ header, footer {
     color: #fff;
     padding: 2rem 4rem;   
 }
+
+.flex-container{
+    display: flex;
+}
+
+body {
+    width:1440px;
+}
+
+h1{
+    font-family: "Libre Baskerville";
+    font-size: 3.6rem;;
+}
+
+header{
+    background-color: white;
+    width:90rem;
+    padding:0;
+    margin-bottom: 4rem;
+}
+
+.header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header img{
+    height:3.6rem;
+    width:5.6rem;
+    margin-right: 31.75rem;
+}
+
+.header{
+    background-color: #111111;
+    padding:2.6rem;
+}
+
+header ul{
+    display: flex;
+    gap:2.5rem;
+    list-style-type: none;
+
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
