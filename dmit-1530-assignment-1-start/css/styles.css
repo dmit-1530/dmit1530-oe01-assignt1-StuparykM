@@ -8,6 +8,11 @@
 body {
     color: #000;
     text-align: center; 
+    width:1440px;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin: 0 auto;
 }
 
 header, footer {
@@ -20,13 +25,6 @@ header, footer {
     display: flex;
 }
 
-body {
-    width:1440px;
-    align-items: center;
-    justify-content: center;
-    padding:0;
-    margin: 0 auto;
-}
 
 h1{
     font-family: "Libre Baskerville";
@@ -37,7 +35,6 @@ header{
     background-color: white;
     width:90rem;
     padding:0;
-    margin-bottom: 4rem;
 }
 
 .header{
@@ -83,11 +80,14 @@ h2{
 }
 
 .hero{
-    margin: 6rem 13rem;
+    margin: 0 13rem;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 .hero p{
     padding-bottom:3.3rem;
+
 }
 
 .button{
@@ -139,4 +139,9 @@ h2{
 .asterix .body{
     margin:0;
     padding:0;
+}
+
+.bg{
+    background-color: var(--blue-grey-100);
+    padding-bottom: 3rem;
 }
