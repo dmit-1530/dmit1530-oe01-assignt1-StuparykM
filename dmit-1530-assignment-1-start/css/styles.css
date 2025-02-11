@@ -22,6 +22,10 @@ header, footer {
 
 body {
     width:1440px;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    margin: 0 auto;
 }
 
 h1{
@@ -92,4 +96,47 @@ h2{
     text-decoration: none;
     padding:1rem;
     border-radius:.5rem;
+}
+
+.center-img{
+    width:95%;
+}
+.mid{
+    text-align: left;
+}
+.body{
+    font-size: 2rem;
+    text-align: left;
+
+}
+
+.top{
+    font-size: 4rem;
+    margin-top:3rem;
+}
+
+.passion{
+    margin: 0 13rem;
+}
+
+.mid{
+ margin-left:13rem;
+ margin-right:13rem;
+ gap:1.5rem;
+ padding: 1.5rem 0;
+}
+
+.mid section{
+    width:20.3rem;
+}
+
+.mid h3{
+    padding-bottom:0.5rem;
+    padding-top:0;
+    margin:0;
+}
+
+.asterix .body{
+    margin:0;
+    padding:0;
 }
