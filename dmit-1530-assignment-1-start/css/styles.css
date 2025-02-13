@@ -163,8 +163,13 @@ section:nth-of-type(4) p{
     text-align:left;
 }
 
-.li-flex h3,li{
+.li-flex li{
     font-size: .9rem;;
+    margin: 0;
+}
+
+.li-flex h3{
+    font-size: 1.2rem;;
     margin: 0;
 }
 
@@ -235,6 +240,7 @@ footer p:first-of-type{
     font-size: .8rem;
     margin-bottom: 2rem;
     margin-top: 0;
+    color: var(--blue-grey-200)
 }
 
 footer p:nth-of-type(2){
@@ -246,4 +252,94 @@ footer img{
     height: 3.6rem;
     width: 5.6rem;
     margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    header nav{
+        margin-top: 2.5rem;
+        margin-left: 7rem;
+    }
+
+    .intro{
+        margin: 3rem;
+    }
+
+    .body-flex{
+        display:flex;
+        flex-wrap: wrap;
+        margin: 0 2rem 3rem 2rem;
+        gap:2rem;
+    }
+    
+    .text-block{
+        width:45%;
+        text-align: left;
+    }
+
+    section:nth-of-type(2) p{
+        padding: 0;
+    }
+
+    section:nth-of-type(3) h2{
+        margin: 2rem;    
+    }
+
+    .li-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .li-block{
+        max-width:45%;
+    }
+
+    section:nth-of-type(4) img{
+        width:50%;
+        height:20%;
+        margin-left: 2rem;
+        margin-top: 7rem;
+    }
+
+    section:nth-of-type(4) span{
+        margin-left: 1rem;
+    }
+
+    .li-block:nth-of-type(2){
+        order:3;
+    }
+
+
+    .li-block h3{
+        margin-left:1rem;
+    }
+
+
+
+    .background{
+        width:70%;
+        margin: 0 auto;
+        
+    }
+
+    .inner-container{
+        width: 50%;
+    }
+
+    .inner-container p{
+        width:78%
+    }
+
+    footer nav{
+        margin-top: 1.5rem
+    }       
+
+    footer p:first-child{
+        width:70%;
+        padding-top:3rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+        
+
 }
