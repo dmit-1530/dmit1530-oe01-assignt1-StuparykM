@@ -308,8 +308,6 @@ footer img{
         margin-left:1rem;
     }
 
-
-
     .background{
         width:70%;
         margin: 0 auto;
@@ -335,8 +333,6 @@ footer img{
         text-align: center;
     }
 
-        
-
 }
 
 @media screen and (min-width: 1440px){
@@ -344,7 +340,7 @@ footer img{
     .container{
         max-width: 90rem;
         margin: 0 auto;
-        background-color: off-white;
+        background-color: #e6e2e2;
     }
 
     header nav{
@@ -375,7 +371,6 @@ footer img{
         justify-content: center;
         align-items: center;
         margin-left: 4rem;
-        
     }
 
     .text-block{
@@ -404,6 +399,7 @@ footer img{
     .li-flex img{
         max-width: 45%;
     }
+
     .li-flex img:first-of-type{
         order:3;
         margin:0;
@@ -436,4 +432,11 @@ footer img{
         gap:7rem;
     }
 
+}
+
+/* Gallery CSS*/
+
+section.gallery-sec-4{
+    background-color: var(--blue-grey-900);
+    color: #fff;
 }
