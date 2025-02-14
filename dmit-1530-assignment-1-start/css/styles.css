@@ -166,15 +166,12 @@ section:nth-of-type(4) p{
 .li-flex li{
     font-size: .9rem;;
     margin: 0;
+    margin-bottom: 1rem;
 }
 
 .li-flex h3{
     font-size: 1.2rem;;
     margin: 0;
-}
-
-.li-flex li{
-    margin-bottom: 1rem;
 }
 
 .li-flex img{
