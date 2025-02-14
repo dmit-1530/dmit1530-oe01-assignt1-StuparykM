@@ -14,9 +14,12 @@ body{
 }
 
 header,footer{
-    background-color: var(--blue-grey-50);
     color: #fff;
-    padding: 2rem 4rem;
+    background-color: #111111;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.2rem;
 }
 
 .container{
@@ -27,15 +30,6 @@ header,footer{
 .flex-container{
     display:flex;
     flex-wrap: wrap;
-}
-
-header,footer{
-    background-color: #111111;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2.2rem;
-    
 }
 
 h1{
@@ -52,7 +46,7 @@ header img{
 
 header nav{
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 header ul{
     display:flex;
@@ -92,6 +86,7 @@ section:nth-of-type(1) a{
     color:white;
     text-decoration: none;
     background-color: #111111;
+    margin: 5rem;
 }
 
 section:nth-of-type(1) a:hover{
@@ -100,8 +95,8 @@ section:nth-of-type(1) a:hover{
     transition: 0.2s;
 }
 
-section:nth-of-type(1) img{
-    max-width:90%;
+section:nth-of-type(1)>img{
+    width:90%;
     border-radius: 10px;
     margin-top: 4rem;
     margin-bottom: 3rem;
@@ -253,12 +248,15 @@ footer img{
 
 @media screen and (min-width: 768px){
     header nav{
-        margin-top: 2.5rem;
         margin-left: 7rem;
     }
 
     .intro{
         margin: 3rem;
+    }
+
+    section:nth-of-type(1) img{
+        max-width:90%;
     }
 
     .body-flex{
@@ -338,5 +336,104 @@ footer img{
     }
 
         
+
+}
+
+@media screen and (min-width: 1440px){
+   
+    .container{
+        max-width: 90rem;
+        margin: 0 auto;
+        background-color: off-white;
+    }
+
+    header nav{
+        margin-left: 40rem;
+    }
+
+    section:first-of-type p{
+        margin: 3rem 12rem;
+    }
+
+    section:nth-of-type(1) img{
+        width: 85rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section:nth-of-type(1) a{
+
+        margin: 10rem 20rem;
+
+    }
+
+    section:nth-of-type(2){
+        margin: 4rem 12rem;
+    }
+
+    .body-flex{
+        justify-content: center;
+        align-items: center;
+        margin-left: 4rem;
+        
+    }
+
+    .text-block{
+        width:30%;
+    }
+
+    section:nth-of-type(3) h2{
+        margin: 2rem 12rem;
+    }
+
+    section:nth-of-type(4){
+        margin:0 auto;
+    }
+
+    section:nth-of-type(4) p{
+        margin: 2rem 11rem;
+    }
+
+    .li-flex{
+        justify-content: center;
+        max-width:80rem;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .li-flex img{
+        max-width: 45%;
+    }
+    .li-flex img:first-of-type{
+        order:3;
+        margin:0;
+    }
+
+    .li-flex img:nth-of-type(2){
+        order:4;
+        margin:0;
+        margin-left: 2rem
+    }
+
+    .li-block{
+        margin:1rem;
+    }
+
+    .li-block:nth-of-type(2){
+        order:2;
+    }
+
+    .background{
+        width:50%;
+        margin: 0 auto;
+    }
+
+    footer .inner-container{
+        margin-left: 7rem;
+    }
+
+    footer nav{
+        gap:7rem;
+    }
 
 }
