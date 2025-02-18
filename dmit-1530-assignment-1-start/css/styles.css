@@ -339,8 +339,10 @@ footer img{
     .gallery-flex{
         display:flex;
         flex-wrap: wrap;
-        margin: 2rem 0 2rem 0rem;
+        margin: 0 auto;
         gap:1rem;
+        margin-left:1rem;
+        margin-bottom:3rem;
         
     }
 
@@ -356,28 +358,98 @@ footer img{
         width:45%;
         text-align: left;
         font-size: 0.9rem;
-        padding-right:2rem
+        padding-right:2rem;
+        margin-left: .4rem;
         
-    }
-
-    section:nth-of-type(1) .gallery-block:nth-of-type(2){
-        padding:0;
     }
 
     section:nth-of-type(1) .gallery-block p {
         padding:0;
         margin-bottom: 1rem;
+        margin-left:1rem;
     }
     section:nth-of-type(1) .gallery-block h3{
-        margin:2rem 0 1.5rem .2rem;
+        margin:2rem 0 1.5rem 1rem;
     }
     
-
-    section:nth-of-type(1) .caption{
+    section:nth-of-type(1) figure{
         order:4;
-        width:52%;
+        width:50%;
+        margin:2rem 0;
     }
 
+    .gallery-p-flex{
+        display:flex;
+        flex-wrap: wrap;
+        gap:.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .gallery-p-flex p{
+        width:48%;
+        padding-right:1rem;
+    }
+
+    .gallery-p-flex p:nth-of-type(2){
+        order:3
+    }
+
+    .gallery-p-flex p:nth-of-type(4){
+        order:3
+    }
+
+
+    .gallery-sec-3 h2{
+        text-align: center;
+    }
+
+    
+    section:nth-of-type(4).gallery-sec-4{
+        padding: 0;
+    }
+
+    section:nth-of-type(4).gallery-sec-4 h2{
+        margin: 3rem auto;
+    }
+
+    .highlights-flex{
+        display:flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+
+    .gallery-li{
+        width:45%;
+        
+    }
+
+    section:nth-of-type(4).gallery-sec-4 img[src*=v]{
+        margin-top:0;
+        height:56rem;
+        margin-bottom: 4rem;
+    }
+
+    section:nth-of-type(4) ul{
+        margin-left:4rem;
+        margin-top: 0;
+    }
+
+    section:nth-of-type(4) figure{
+        width:85%;
+    }
+
+    section:nth-of-type(4) figure>img{
+        order:4;
+        width:21rem;
+        margin:0rem 2rem 0 0;
+        height:12rem;
+    }
+
+    section:nth-of-type(4) figcaption{
+        margin-top:1;
+    }
+    
 }
 
 @media screen and (min-width: 1440px){
